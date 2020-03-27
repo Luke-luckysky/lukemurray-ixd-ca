@@ -1,0 +1,23 @@
+@import "imports/mainstyle.css";
+@import "imports/footer.css";
+@import "imports/Prosize-3.css";
+@import "imports/Shop.css";
+@import "imports/Homepage.css";
+@import "imports/productcategory.css";
+
+
+
+@font-face {
+    font-family: "univers57";
+    src: url(../fonts/Univers_57_Condensed.ttf);
+}
+
+@font-face {
+    font-family: "univers65bold";
+    src: url(../fonts/Univers_65_Bold.ttf);
+}
+
+@font-face {
+    font-family: "univers45light";
+    src: url(../fonts/Univers_45_Light.ttf);
+}

@@ -1,0 +1,142 @@
+/*------------PRODUCT CATEGORY--------*/
+
+.category-grid {
+  display: inline-grid;
+  grid-row: 200px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 200px;
+  grid-template-columns: auto auto auto;
+  gap: 20px 25px;
+  border-bottom: solid 2mm white;
+}
+
+.category-dropdown-list {
+  grid-row: 1;
+  grid-column: 5;
+}
+
+.category-dropdown {
+    display: inline-block;
+}
+
+.dropdown-text{
+    font-family: "univers57";
+    color: black;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+.dropdown-button {
+    font-family: "univers57";
+    color: black;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.category-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.shadowball-img {
+    width: 10vw;
+    height: 10vw;
+    margin-left: 20%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.back-to-store-txt {
+    font-family: "univers57";
+    background-color: rgb(80, 14, 100);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100%;
+}
+
+.add-to-cart {
+    font-family: "univers57";
+    background-color: rgb(80, 14, 100);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: 0.6s;
+    bottom: 0;
+    text-align: center;
+}
+
+.shadowball-text {
+    font-family: "univers57";
+    color: black;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.shadowball-grid1 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.shadowball-grid2 {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.shadowball-grid3 {
+    grid-row: 1;
+    grid-column: 4; 
+}
+
+.shadowball-grid4 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.shadowball-grid5 {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.shadowball-grid6 {
+    grid-row: 2;
+    grid-column: 4;
+}
+

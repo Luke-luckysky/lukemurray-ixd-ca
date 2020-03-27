@@ -1,0 +1,58 @@
+/*--------------MAIN HOMEPAGE------------*/
+
+.grid-main {
+    display: inline-grid;
+    grid-row: 200px;
+    margin-left: 1in;
+    margin-right: 1in;
+    margin-top: 200px;
+    border-bottom: solid 2mm white;
+}
+
+.grid-disclaimer-img {
+    grid-column: 5/5;
+    grid-row: 1/1;
+}
+
+.disclaimer-img {
+    max-width: 10vw;
+    max-height: 10vw;
+}
+
+.grid-disclaimer-txt {
+    grid-column: 1/ span 4;
+    grid-row: 1/1;
+}
+
+.disclaimer-text {
+    font-family: "univers65bold";
+    color: black;
+    font-size: 3vw;
+}
+
+.grid-main-text {
+    grid-row: 2/4;
+    grid-column: 1/4;
+}
+
+.main-text {
+    font-family: "univers65bold";
+    color: black;
+    font-size: 1.5vw;
+}
+
+.grid-main-splash {
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+
+.splash-img {
+    width: 40vw;
+    height: 30vw;
+}
+
+.grid-menu {
+    grid-row: 2/2;
+    grid-column: 5/5;
+}
+

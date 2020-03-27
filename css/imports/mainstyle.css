@@ -1,0 +1,185 @@
+.container {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+
+h1 {
+    color: rgba(255, 255, 255, 0.973);
+    font-family: "univers65bold";
+    font-size: 45px;
+    float: left;
+    margin-top: 450px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: rgb(255, 255, 255, 0.973);
+    font-family: "univers65bold";
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: "univers45light", arial, 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid 0.5mm black;
+    position: fixed;
+}
+
+.navleft {
+    width: 20%;
+    height: auto;
+    margin: 0px 0px 0px 10%;
+    
+}
+
+.navright {
+    width: 80%;
+    height: auto;
+}
+
+.logoimg {
+    width: 20vw;
+    height: 100px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.shop {
+    font-family: "univers57";
+    background-color: rgb(80, 14, 100);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 5px;
+    padding: 12px;
+    text-align: center;
+    transition-duration: 0.6s;
+}
+
+.shop:visited{
+    color: white;
+}
+
+.academy {
+    font-family: "univers57";
+    background-color: rgb(80, 14, 100);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 5px;
+    padding: 12px;
+    text-align: center;
+}
+
+.about {
+    font-family: "univers57";
+    background-color: rgb(80, 14, 100);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 40px 5px 40px 5px;
+    line-height: 0px;
+    padding: 15px;
+    float: right;
+}
+
+.doesitwork {
+    font-family: "univers57";
+    background-color: rgb(80, 14, 100);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 5px;
+    padding: 12px;
+    text-align: center;
+
+}
+
+.contactus {
+    font-family: "univers57";
+    background-color: rgb(80, 14, 100);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 40px 5px 40px 5px;
+    line-height: 0px;
+    padding: 15px;
+    float: right;
+}
+
+.homebutton {
+    font-family: "univers57";
+    background-color: rgb(80, 14, 100);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    float: left;
+    border-radius: 15px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 40px 5px 40px 5px;
+    line-height: 0px;
+    padding: 15px;
+    transition-duration: 0.6s;
+}
+
+.shoping-cart {
+    font-family: "univers57";
+    background-color: rgb(80, 14, 100);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 40px 5px 40px 5px;
+    line-height: 0px;
+    padding: 15px;
+    float: right;
+}
+
+.shoping-cart-img {
+    margin: 30px 5px 40px 5px;
+    float: right;
+}
